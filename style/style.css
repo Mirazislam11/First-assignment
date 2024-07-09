@@ -70,6 +70,7 @@ body{
     margin-top: 74px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
+    padding: 10px;
 }
 .Development-section-container{
     width: 946px;
@@ -159,5 +160,57 @@ body{
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
     background-color: #fff;
+    margin-top: 32px;
+}
+/* My Inspiration section style */
+.Inspiration-container{
+    width: 1140px;
+    height: 775px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-top: 88px;
+}
+.Inspiration-title{
+    width: 852px;
+    height: 113px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Inspiration-title h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.Inspiration-title p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 24px;
+}
+.inspiration-video{
+    width: 1140px;
+    height: 614px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    margin-top: 48px;
+}
+.video{
+    width: 1076px;
+    height: 550px;
+    margin: 0 auto;
     margin-top: 32px;
 }
