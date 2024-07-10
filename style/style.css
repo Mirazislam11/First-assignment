@@ -214,3 +214,109 @@ body{
     margin: 0 auto;
     margin-top: 32px;
 }
+.current-target{
+    width: 1140px;
+    height: 460px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-top: 151px;
+}
+.current-target-title{
+    width: 946px;
+    height: 113px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.current-target-title h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.current-target-title p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 24px;
+}
+.card-section{
+    width: 1140px;
+    height: 299px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 364px;
+    height: 299px;
+    /* border: 1px solid red; */
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.card-title{
+    width: 284px;
+    height: 219px;
+    /* border: 1px solid; */
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.card-title h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px;
+}
+.card-title p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-top: 8px;
+}
+.card-title .learn{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    margin-top: 22px;
+}
+.card-1{
+    width: 364px;
+    height: 299px;
+    /* border: 1px solid red; */
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.card-2{
+    width: 364px;
+    height: 299px;
+    /* border: 1px solid red; */
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
